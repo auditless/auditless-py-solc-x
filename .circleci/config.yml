@@ -1,0 +1,16 @@
+version: 2.1
+
+jobs:
+  test:
+    docker:
+      - image: circleci/python:3.8.7
+    steps:
+      - checkout
+      - run: make install
+      - run: make install_solc
+      - run: make test
+
+workflows:
+  build_and_test:
+    jobs:
+      - test
