@@ -1,8 +1,20 @@
 [tool.poetry]
 name = "auditless-py-solc-x"
 version = "0.1.0"
-description = ""
-authors = []
+description = "py-solc-x wrapper for Auditless"
+authors = ["Peteris Erins <peteris@auditless.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/auditless/auditless-py-solc-x"
+repository = "https://github.com/auditless/auditless-py-solc-x"
+keywords = []
+classifiers = []
+include = [
+    "LICENSE"
+]
+packages = [
+    {include = "auditless_solcx"}
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"

@@ -1,6 +1,6 @@
 # py-solc-x wrapper for Auditless
 
-This wrapper modifies `py-solcx-x` to produce output on every compilation so that it can be consumed by Auditless.
+This wrapper modifies `py-solcx-x` to produce output on every compilation that can be consumed by Auditless.
 
 ## Can I use this for my project
 
